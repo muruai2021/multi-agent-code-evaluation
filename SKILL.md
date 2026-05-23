@@ -1,22 +1,14 @@
 ---
 name: multi-agent-code-evaluation
 description: Use when 需要进行代码评估、质量分析、五维评分或多智能体协作评估代码质量
+version: 1.0.0
+author: Muru AI
+license: MIT
+platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [code-evaluation, quality-assessment, five-dimension, scoring, multi-agent]
-    activation:
-      include:
-        - "evaluate code"
-        - "code evaluation"
-        - "代码评估"
-        - "质量评分"
-        - "代码质量分析"
-        - "assessment"
-        - "五维评估"
-      exclude:
-        - "write code"
-        - "review code"
-        - "just read"
+    related_skills: [multi-agent-code-review, multi-agent-code-test, multi-agent-skill-factory]
 ---
 
 # multi-agent-code-evaluation
